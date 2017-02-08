@@ -1,0 +1,15 @@
+{
+  "dependencies": {},
+  "name": "multi-layout-container",
+  "version": "0.1.0",
+  "main": "main.js",
+  "author": "Emanuele Marchi <emanuele@lostcrew.it>",
+  "license": "SEE LICENSE IN LICENCE",
+  "scripts": {
+    "build": "elm-make src/*.elm --output main.js",
+    "start": "open index.html && nodemon -e elm -x 'yarn build'"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

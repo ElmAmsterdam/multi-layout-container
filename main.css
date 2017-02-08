@@ -1,0 +1,42 @@
+.position-switcher {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs__bar {}
+
+.tabs__button {}
+
+.tabs__content {}
+
+.tabs--top,
+.tabs--bottom {
+  flex-direction: column;
+}
+
+.tabs--left .tabs__button,
+.tabs--right .tabs__button {
+  display: block;
+}
+
+.tabs--right .tabs__bar,
+.tabs--bottom .tabs__bar {
+  order: 1;
+}
+
+.tabs--right .tabs__content,
+.tabs--bottom .tabs__content {
+  order: 0;
+}
