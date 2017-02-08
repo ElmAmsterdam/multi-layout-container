@@ -1,9 +1,13 @@
 {
   "dependencies": {},
   "name": "multi-layout-container",
+  "description": "Multi layout container for Elm",
   "version": "0.1.0",
   "main": "main.js",
-  "author": "Emanuele Marchi <emanuele@lostcrew.it>",
+  "author": "Matthias Benkort <matthias.benkort@gmail.com> (http://ktorz.github.io)",
+  "contributors": [
+    "Emanuele Marchi <emanuele@lostcrew.it> (http://emanuele.nl)"
+  ],
   "license": "SEE LICENSE IN LICENCE",
   "scripts": {
     "build": "elm-make src/*.elm --output main.js",
@@ -11,5 +15,6 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "private": true
 }
